@@ -1,0 +1,6 @@
+package com.dialogflow.dialogflowforbrowser.modelforgoogleactions;
+
+public enum PaymentMethodProvenance {
+
+	PAYMENT_METHOD_PROVENANCE_UNSPECIFIED, PAYMENT_METHOD_PROVENANCE_GOOGLE, PAYMENT_METHOD_PROVENANCE_MERCHANT
+}

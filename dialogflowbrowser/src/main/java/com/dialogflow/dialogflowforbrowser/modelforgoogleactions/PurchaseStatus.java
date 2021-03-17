@@ -1,0 +1,6 @@
+package com.dialogflow.dialogflowforbrowser.modelforgoogleactions;
+
+public enum PurchaseStatus {
+
+	PURCHASE_STATUS_UNSPECIFIED, READY_FOR_PICKUP, SHIPPED, DELIVERED, OUT_OF_STOCK, IN_PREPARATION, CREATED, CONFIRMED, REJECTED, RETURNED, CANCELLED, CHANGE_REQUESTED
+}
