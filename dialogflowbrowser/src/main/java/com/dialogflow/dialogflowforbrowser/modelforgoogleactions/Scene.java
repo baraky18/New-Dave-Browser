@@ -1,10 +1,12 @@
 package com.dialogflow.dialogflowforbrowser.modelforgoogleactions;
 
+import java.util.Map;
+
 public class Scene {
 
 	private String name;
 	private SlotFillingStatus slotFillingStatus;
-	private Slot[] slots;
+	private Map<String, Slot> slots;
 	private NextScene next;
 	
 	public String getName() {
@@ -19,10 +21,10 @@ public class Scene {
 	public void setSlotFillingStatus(SlotFillingStatus slotFillingStatus) {
 		this.slotFillingStatus = slotFillingStatus;
 	}
-	public Slot[] getSlots() {
+	public Map<String, Slot> getSlots() {
 		return slots;
 	}
-	public void setSlots(Slot[] slots) {
+	public void setSlots(Map<String, Slot> slots) {
 		this.slots = slots;
 	}
 	public NextScene getNext() {
